@@ -1,0 +1,45 @@
+{
+  "name": "descussion-forum",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-icons/bootstrap": "1.5.0",
+    "@chakra-ui/react-utils": "2.0.9",
+    "@chakra-ui/system": "2.3.5",
+    "axios": "1.2.1",
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "8.0.5",
+    "redux-thunk": "2.4.2",
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^3.1.2",
+    "styled-components": "^5.2.1",
+    "thunk": "0.0.1"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.1.5",
+    "@types/react": "^17.0.2",
+    "@types/socket.io-client": "^1.4.35",
+    "autoprefixer": "^10.2.5",
+    "babel-plugin-macros": "^3.0.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "postcss": "^8.2.7",
+    "react-is": "^17.0.1",
+    "tailwindcss": "^2.0.3",
+    "twin.macro": "^2.3.0",
+    "typescript": "^4.2.3"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
+  "keywords": [],
+  "description": ""
+}
